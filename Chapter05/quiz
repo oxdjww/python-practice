@@ -1,0 +1,5 @@
+year = int(input("태어난 년도 입력 : "))
+
+age = 2023-year+1
+
+print(str(age) + "살입니다")
