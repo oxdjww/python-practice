@@ -1,3 +1,8 @@
-for i in range(1, 6):
-    # for i in rangae(i):
-    print("*" * i)
+input = int(input("숫자 입력>>"))
+
+sum = 0
+
+for i in range(0, input+1):
+    sum += i
+
+print(sum)
